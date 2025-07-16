@@ -42,7 +42,7 @@ git clone https://github.com/NorthFi/subnet-calculator-simple-py.git
 cd subnet-calculator-simple-py
 
 # Run the application
-python subnet_calculator.py
+python subnet-calculator-simple.py
 ```
 
 No additional dependencies required! The application uses only Python standard library modules.
@@ -51,7 +51,7 @@ No additional dependencies required! The application uses only Python standard l
 
 1. **Launch the application**
    ```bash
-   python subnet_calculator.py
+   python subnet-calculator-simple.py
    ```
 
 2. **Enter network details**
