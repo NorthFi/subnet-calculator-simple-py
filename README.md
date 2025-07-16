@@ -1,4 +1,4 @@
-# 🌐 Subnet Calculator
+# 🌐 Simple Subnet Calculator
 
 <div align="center">
 
