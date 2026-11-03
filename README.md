@@ -134,3 +134,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Star ⭐ this repository if you find it helpful!*
 
 </div>
+
+## Windows executable builds and releases
+
+GitHub Actions builds a Windows single-file executable with PyInstaller when a pull request changes Python source or the build workflow. Open the **Windows executable** workflow run and download the `subnet-calculator-simple-py-windows` artifact to test the application on Windows.
+
+For a versioned release, first merge the reviewed build workflow and test the executable. Then create and push an explicit version tag (for example `v1.0.0`) pointing to the intended release commit. The workflow builds the executable, validates its presence and size, and publishes a GitHub Release with generated notes only if the build succeeds. An existing release is never overwritten automatically.
+
+The executable is unsigned. Windows SmartScreen may warn about unknown publishers; validate the downloaded artifact and source before distributing it. No automatic version tagging or production deployment is performed.
