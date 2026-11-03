@@ -73,7 +73,7 @@ def calculate_subnet():
     except ValueError as e:
         messagebox.showerror("Error", str(e))
 
-def main():
+if __name__ == '__main__':
     # GUI setup
     window = tk.Tk()
     window.title("Simple Subnet Calculator")
@@ -113,6 +113,3 @@ def main():
     
     window.mainloop()
     
-
-if __name__ == '__main__':
-    main()
